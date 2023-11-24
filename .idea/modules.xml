@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OpenBoard.iml" filepath="$PROJECT_DIR$/OpenBoard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenBoard-backend/OpenBoard-backend.iml" filepath="$PROJECT_DIR$/OpenBoard-backend/OpenBoard-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openboard-frontend.iml" filepath="$PROJECT_DIR$/openboard-frontend.iml" />
+    </modules>
+  </component>
+</project>

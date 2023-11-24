@@ -1,0 +1,44 @@
+{
+  "_embedded": {
+    "categories": [
+      {
+        "name": "pidor",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/categories/1"
+          },
+          "category": {
+            "href": "http://localhost:8080/categories/1"
+          }
+        }
+      },
+      {
+        "name": "pidor",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/categories/2"
+          },
+          "category": {
+            "href": "http://localhost:8080/categories/2"
+          }
+        }
+      },
+      {
+        "name": "pidor",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/categories/52"
+          },
+          "category": {
+            "href": "http://localhost:8080/categories/52"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/announcements/1/categories"
+    }
+  }
+}

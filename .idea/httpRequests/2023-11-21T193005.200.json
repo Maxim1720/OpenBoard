@@ -1,0 +1,42 @@
+{
+  "_embedded": {
+    "categories": [
+      {
+        "name": "pidor",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/categories/1"
+          },
+          "category": {
+            "href": "http://localhost:8080/categories/1"
+          }
+        }
+      },
+      {
+        "name": "pidor",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/categories/2"
+          },
+          "category": {
+            "href": "http://localhost:8080/categories/2"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/categories?page=0&size=20"
+    },
+    "profile": {
+      "href": "http://localhost:8080/profile/categories"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 2,
+    "totalPages": 1,
+    "number": 0
+  }
+}

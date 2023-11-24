@@ -1,0 +1,609 @@
+GET http://localhost:8080/announcements/1/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T193300.200.json
+
+###
+
+PUT http://localhost:8080/announcements/1/categories
+Content-Type: text/uri-list
+Content-Length: 69
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/1
+http://localhost:8080/categories/2
+
+###
+
+GET http://localhost:8080/announcements/1/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T193245.200.json
+
+###
+
+POST http://localhost:8080/announcements/1/categories
+Content-Type: text/uri-list
+Content-Length: 69
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/1
+http://localhost:8080/categories/2
+
+###
+
+GET http://localhost:8080/announcements/1/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T193233.200.json
+
+###
+
+POST http://localhost:8080/announcements/1/categories
+Content-Type: text/uri-list
+Content-Length: 35
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/52
+
+###
+
+DELETE http://localhost:8080/announcements/1/categories
+Content-Type: text/uri-list
+Content-Length: 35
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/52
+
+###
+
+GET http://localhost:8080/announcements/1/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T193220.200.json
+
+###
+
+DELETE http://localhost:8080/announcements/1/categories/2
+Content-Type: text/uri-list
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+DELETE http://localhost:8080/announcements/1/categories/1
+Content-Type: text/uri-list
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/announcements/1/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T193212.200.json
+
+###
+
+DELETE http://localhost:8080/announcements/1/categories/52
+Content-Type: text/uri-list
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+DELETE http://localhost:8080/announcements/1/categories
+Content-Type: text/uri-list
+Content-Length: 35
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/52
+
+###
+
+DELETE http://localhost:8080/announcements/1/categories
+Content-Type: text/uri-list
+Content-Length: 35
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/52
+
+###
+
+GET http://localhost:8080/announcements/1/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T193122.200.json
+
+###
+
+DELETE http://localhost:8080/announcements/1/categories/52
+Content-Type: text/uri-list
+Content-Length: 35
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/52
+
+###
+
+DELETE http://localhost:8080/announcements/1/categories
+Content-Type: text/uri-list
+Content-Length: 35
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/52
+
+###
+
+GET http://localhost:8080/announcements/1/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T193034.200.json
+
+###
+
+POST http://localhost:8080/announcements/1/categories
+Content-Type: text/uri-list
+Content-Length: 35
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/52
+
+###
+
+GET http://localhost:8080/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T193009.200.json
+
+###
+
+POST http://localhost:8080/categories
+Content-Type: application/json
+Content-Length: 21
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "pidor"
+}
+
+###
+
+GET http://localhost:8080/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T193005.200.json
+
+###
+
+GET http://localhost:8080/announcements/1/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T193001.200.json
+
+###
+
+POST http://localhost:8080/announcements/1/categories
+Content-Type: text/uri-list
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/announcements/1/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T192954.200.json
+
+###
+
+POST http://localhost:8080/announcements/1/categories
+Content-Type: text/uri-list
+Content-Length: 69
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/1
+http://localhost:8080/categories/2
+
+###
+
+GET http://localhost:8080/announcements/1/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T192927.200.json
+
+###
+
+PATCH http://localhost:8080/announcements/1/categories
+Content-Type: text/uri-list
+Content-Length: 69
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/1
+http://localhost:8080/categories/2
+
+###
+
+GET http://localhost:8080/announcements/1/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T192919.200.json
+
+###
+
+PATCH http://localhost:8080/announcements/1/categories
+Content-Type: text/uri-list
+Content-Length: 34
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/1
+
+###
+
+PATCH http://localhost:8080/announcements/1/categories
+Content-Type: text/uri-list
+Content-Length: 44
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+"href": "http://localhost:8080/categories/1"
+
+<> 2023-11-21T192911.500.json
+
+###
+
+PATCH http://localhost:8080/announcements/1/categories
+Content-Type: text/uri-list
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[
+{
+"href": "http://localhost:8080/categories/1"
+}
+]
+
+<> 2023-11-21T192849.500.json
+
+###
+
+PATCH http://localhost:8080/announcements/1/categories
+Content-Type: text/uri-list
+Content-Length: 110
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+  "_links": {
+    "category": [
+      {
+        "href": "http://localhost:8080/categories/1"
+      }
+    ]
+  }
+
+<> 2023-11-21T192825.500.json
+
+###
+
+PATCH http://localhost:8080/announcements/1/categories
+Content-Type: text/uri-list
+Content-Length: 114
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "_links": {
+    "category": [
+      {
+        "href": "http://localhost:8080/categories/1"
+      }
+    ]
+  }
+}
+
+<> 2023-11-21T192806.500.json
+
+###
+
+GET http://localhost:8080/announcements/1/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T192756.200.json
+
+###
+
+PATCH http://localhost:8080/announcements/1/categories
+Content-Type: text/url-list
+Content-Length: 114
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "_links": {
+    "category": [
+      {
+        "href": "http://localhost:8080/categories/1"
+      }
+    ]
+  }
+}
+
+<> 2023-11-21T192753.404.json
+
+###
+
+GET http://localhost:8080/announcements/1/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T192700.200.json
+
+###
+
+PATCH http://localhost:8080/announcements/1/categories
+Content-Type: application/json
+Content-Length: 114
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "_links": {
+    "category": [
+      {
+        "href": "http://localhost:8080/categories/1"
+      }
+    ]
+  }
+}
+
+###
+
+PATCH http://localhost:8080/announcements/1/categories
+Content-Type: application/json
+Content-Length: 114
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "_links": {
+    "category": [
+      {
+        "href": "http://localhost:8080/categories/1"
+      }
+    ]
+  }
+}
+
+###
+
+PATCH http://localhost:8080/announcements/1/categories
+Content-Type: application/json
+Content-Length: 114
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "_links": {
+    "category": [
+      {
+        "href": "http://localhost:8080/categories/1"
+      }
+    ]
+  }
+}
+
+###
+
+PUT http://localhost:8080/announcements/1/categories
+Content-Type: application/json
+Content-Length: 114
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "_links": {
+    "category": [
+      {
+        "href": "http://localhost:8080/categories/1"
+      }
+    ]
+  }
+}
+
+###
+
+GET http://localhost:8080/announcements/1/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T192642.200.json
+
+###
+
+PUT http://localhost:8080/announcements/1/categories
+Content-Type: application/json
+Content-Length: 114
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "_links": {
+    "category": [
+      {
+        "href": "http://localhost:8080/categories/1"
+      }
+    ]
+  }
+}
+
+###
+
+GET http://localhost:8080/announcements/1/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T192631.200.json
+
+###
+
+PATCH http://localhost:8080/announcements/1/categories
+Content-Type: application/json
+Content-Length: 114
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "_links": {
+    "category": [
+      {
+        "href": "http://localhost:8080/categories/2"
+      }
+    ]
+  }
+}
+
+###
+
+POST http://localhost:8080/categories
+Content-Type: application/json
+Content-Length: 21
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "pidor"
+}
+
+###
+
+GET http://localhost:8080/announcements/1/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T192620.200.json
+
+###
+
+PATCH http://localhost:8080/announcements/1/categories
+Content-Type: application/json
+Content-Length: 114
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "_links": {
+    "category": [
+      {
+        "href": "http://localhost:8080/categories/1"
+      }
+    ]
+  }
+}
+
+###
+
+GET http://localhost:8080/announcements/1/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-11-21T192614.200.json
+
+###
+
+PATCH http://localhost:8080/announcements/1/categories
+Content-Type: application/json
+Content-Length: 114
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "_links": {
+    "category": [
+      {
+        "href": "http://localhost:8080/categories/2"
+      }
+    ]
+  }
+}
+
+###
+

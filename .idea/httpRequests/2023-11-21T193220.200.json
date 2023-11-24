@@ -1,0 +1,10 @@
+{
+  "_embedded": {
+    "categories": []
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/announcements/1/categories"
+    }
+  }
+}
