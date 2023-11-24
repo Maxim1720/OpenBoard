@@ -1,0 +1,12 @@
+### PROFILE
+GET http://localhost:8080/profile/categories
+###
+GET http://localhost:8080/categories
+
+### POST
+POST http://localhost:8080/categories
+Content-Type: application/json
+
+{
+  "name": "pidor"
+}
