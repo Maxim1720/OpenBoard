@@ -1,5 +1,6 @@
     package ru.lea.openboardbackend.entity;
 
+    import com.fasterxml.jackson.annotation.JsonProperty;
     import jakarta.persistence.*;
     import lombok.Getter;
     import lombok.Setter;
@@ -21,6 +22,7 @@
         @Column(name = "text", length = 500)
         private String text;
 
+        @JsonProperty(access = JsonProperty.Access.READ_ONLY)
         @CreationTimestamp
         @Temporal(TemporalType.TIMESTAMP)
         @Column(name = "created_at")

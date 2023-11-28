@@ -4,9 +4,63 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76dcba20-fd04-480e-9119-6e38a461675b" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/OpenBoard-backend/.gitignore" afterDir="false" />
+    <list default="true" id="76dcba20-fd04-480e-9119-6e38a461675b" name="Changes" comment="to update the table of contents">
+      <change afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/comments.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/locations.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/ratings.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementCreator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementItemCategory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementUpdater.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/comment/CommentCreator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/comment/CommentUpdater.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/comment/Comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/form/AnnouncementForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/form/CategoryForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/form/CommentForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/rate/Rating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/rate/RatingWithAverage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/utils/Loading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cfb049f3-6f53-4730-a380-e04cfbd21a03.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cfb049f3-6f53-4730-a380-e04cfbd21a03.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cfb049f3-6f53-4730-a380-e04cfbd21a03/storage_v2/_src_/database/open_board.sRhCKA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cfb049f3-6f53-4730-a380-e04cfbd21a03/storage_v2/_src_/database/open_board.sRhCKA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192614.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192620.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192631.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192642.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192700.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192753.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192756.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192806.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192825.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192849.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192911.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192919.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192927.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192954.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193001.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193005.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193009.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193034.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193122.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193212.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193220.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193233.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193245.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193300.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lea report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Lea report.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenBoard-backend/src/main/java/ru/lea/openboardbackend/entity/Announcement.java" beforeDir="false" afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/java/ru/lea/openboardbackend/entity/Announcement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenBoard-backend/src/main/java/ru/lea/openboardbackend/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/java/ru/lea/openboardbackend/entity/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenBoard-backend/src/main/java/ru/lea/openboardbackend/repository/AnnouncementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/java/ru/lea/openboardbackend/repository/AnnouncementRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/announcement.http" beforeDir="false" afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/announcement.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/category.http" beforeDir="false" afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/category.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openboard-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openboard-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openboard-frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openboard-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openboard-frontend/src/components/Announcements.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/components/Announcements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openboard-frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +70,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTTP Request" />
         <option value="com.haulmont.jpb.JpaEntity" />
         <option value="Class" />
         <option value="com.haulmont.jpb.JpaRepository" />
         <option value="JavaScript File" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -62,6 +116,7 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "/home/almat/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/232.10072.27/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -70,17 +125,25 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.OpenBoardBackendApplication">
-    <configuration name="announcement | GET" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/announcement.http" index="3" requestIdentifier="GET" runType="Run single request">
+    <configuration name="announcement | GET ALL" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/announcement.http" index="7" requestIdentifier="GET ALL" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="announcement | PATCH" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/announcement.http" index="3" requestIdentifier="PATCH" runType="Run single request">
+    <configuration name="announcement | GET ITEM" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/announcement.http" index="5" requestIdentifier="GET ITEM" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="category | POST" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/category.http" index="3" requestIdentifier="POST" runType="Run single request">
+    <configuration name="announcement | PROFILE" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/announcement.http" requestIdentifier="PROFILE" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="category | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/category.http" index="2" requestIdentifier="#2" runType="Run single request">
+    <configuration name="announcement | SEARCH" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/announcement.http" index="2" requestIdentifier="SEARCH" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="announcement | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/announcement.http" index="7" requestIdentifier="#7" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -94,23 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/openboard-frontend/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
-        <item itemvalue="HTTP Request.announcement | GET" />
-        <item itemvalue="HTTP Request.announcement | PATCH" />
-        <item itemvalue="HTTP Request.category | #2" />
-        <item itemvalue="HTTP Request.category | POST" />
+        <item itemvalue="HTTP Request.announcement | #7" />
+        <item itemvalue="HTTP Request.announcement | SEARCH" />
+        <item itemvalue="HTTP Request.announcement | GET ALL" />
+        <item itemvalue="HTTP Request.announcement | GET ITEM" />
+        <item itemvalue="HTTP Request.announcement | PROFILE" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +178,7 @@
       <workItem from="1700559584374" duration="15887000" />
       <workItem from="1700661552972" duration="2254000" />
       <workItem from="1700804159110" duration="2036000" />
-      <workItem from="1700820055642" duration="26000" />
+      <workItem from="1700820055642" duration="85811000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -135,7 +188,39 @@
       <option name="project" value="LOCAL" />
       <updated>1700819893570</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1700820102476</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700820102476</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1700820116188</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700820116188</updated>
+    </task>
+    <task id="LOCAL-00004" summary="to update report">
+      <option name="closed" value="true" />
+      <created>1700826335043</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700826335043</updated>
+    </task>
+    <task id="LOCAL-00005" summary="to update the table of contents">
+      <option name="closed" value="true" />
+      <created>1700826572306</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700826572306</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +231,8 @@
       <path value="$PROJECT_DIR$/OpenBoard-backend" />
     </ignored-roots>
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="to update report" />
+    <MESSAGE value="to update the table of contents" />
+    <option name="LAST_COMMIT_MESSAGE" value="to update the table of contents" />
   </component>
 </project>

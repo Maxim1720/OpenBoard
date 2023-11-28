@@ -1,0 +1,14 @@
+### PROFILE
+GET localhost:8080/profile/locations
+
+### GET ALL
+GET http://localhost:8080/locations
+
+### POST
+POST http://localhost:8080/locations
+Content-Type: application/json
+
+{
+  "city": "Uralsk",
+  "region": "Aygul"
+}

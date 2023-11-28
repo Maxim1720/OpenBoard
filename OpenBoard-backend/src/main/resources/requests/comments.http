@@ -1,0 +1,2 @@
+### PROFILE
+GET http://localhost:8080/profile/comments

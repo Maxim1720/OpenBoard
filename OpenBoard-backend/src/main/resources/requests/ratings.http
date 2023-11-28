@@ -1,0 +1,6 @@
+### PROFILE
+GET http://localhost:8080/profile/ratings
+
+
+### GET ITEM
+GET http://localhost:8080/ratings/438

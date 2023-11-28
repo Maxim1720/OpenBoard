@@ -1,0 +1,43 @@
+### PROFILE
+GET http://localhost:8080/profile/announcements
+
+### SEARCH
+GET http://localhost:8080/announcements/search
+
+### POST
+POST http://localhost:8080/announcements
+Content-Type: application/json
+
+{
+  "title": "lol",
+  "description": "lol",
+  "categories":[]
+}
+
+#### PATCH Categories
+PUT http://localhost:8080/announcements/1/categories
+Content-Type: text/uri-list
+
+http://localhost:8080/categories/1
+http://localhost:8080/categories/2
+
+### GET
+GET http://localhost:8080/announcements/1/categories
+
+### GET ITEM
+GET http://localhost:8080/announcements/553
+
+###
+GET http://localhost:8080/announcements/search/findAnnouncementByCategories?{152}
+Content-Type: application/json
+
+["http://localhost:8080/categories/152"]
+
+### GET ALL
+GET http://localhost:8080/announcements
+
+### PUT Location
+PUT http://localhost:8080/announcements/354/location
+Content-Type: text/uri-list
+
+http://localhost:8080/locations/207

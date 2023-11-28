@@ -33,10 +33,10 @@ public class Announcement {
     @ManyToMany(targetEntity = Category.class)
     private Set<Category> categories;
 
-    @OneToMany(targetEntity = Comment.class, mappedBy = "announcement")
+    @OneToMany(targetEntity = Comment.class, mappedBy = "announcement", cascade = {CascadeType.REMOVE})
     private Set<Comment> comments;
 
-    @OneToMany(targetEntity = Rating.class, mappedBy = "announcement")
+    @OneToMany(targetEntity = Rating.class, mappedBy = "announcement", cascade = {CascadeType.REMOVE})
     private Set<Rating> ratings;
 
     @ManyToOne(targetEntity = Location.class)
