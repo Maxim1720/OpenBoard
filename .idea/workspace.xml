@@ -4,63 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76dcba20-fd04-480e-9119-6e38a461675b" name="Changes" comment="to update the table of contents">
-      <change afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/comments.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/locations.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/ratings.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementCreator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementItemCategory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementUpdater.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/comment/CommentCreator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/comment/CommentUpdater.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/comment/Comments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/form/AnnouncementForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/form/CategoryForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/form/CommentForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/rate/Rating.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/rate/RatingWithAverage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openboard-frontend/src/components/utils/Loading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cfb049f3-6f53-4730-a380-e04cfbd21a03.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cfb049f3-6f53-4730-a380-e04cfbd21a03.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cfb049f3-6f53-4730-a380-e04cfbd21a03/storage_v2/_src_/database/open_board.sRhCKA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cfb049f3-6f53-4730-a380-e04cfbd21a03/storage_v2/_src_/database/open_board.sRhCKA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192614.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192620.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192631.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192642.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192700.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192753.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192756.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192806.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192825.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192849.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192911.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192919.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192927.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T192954.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193001.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193005.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193009.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193034.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193122.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193212.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193220.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193233.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193245.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-11-21T193300.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+    <list default="true" id="76dcba20-fd04-480e-9119-6e38a461675b" name="Changes" comment="to exclude .idea dir from git">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lea report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Lea report.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenBoard-backend/src/main/java/ru/lea/openboardbackend/entity/Announcement.java" beforeDir="false" afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/java/ru/lea/openboardbackend/entity/Announcement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenBoard-backend/src/main/java/ru/lea/openboardbackend/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/java/ru/lea/openboardbackend/entity/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenBoard-backend/src/main/java/ru/lea/openboardbackend/repository/AnnouncementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/java/ru/lea/openboardbackend/repository/AnnouncementRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/announcement.http" beforeDir="false" afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/announcement.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/category.http" beforeDir="false" afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/category.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openboard-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openboard-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openboard-frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openboard-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openboard-frontend/src/components/Announcements.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/components/Announcements.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openboard-frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +123,7 @@
       <workItem from="1700559584374" duration="15887000" />
       <workItem from="1700661552972" duration="2254000" />
       <workItem from="1700804159110" duration="2036000" />
-      <workItem from="1700820055642" duration="85811000" />
+      <workItem from="1700820055642" duration="86884000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -220,7 +165,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700826572306</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="to update project">
+      <option name="closed" value="true" />
+      <created>1701163478715</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701163478715</updated>
+    </task>
+    <task id="LOCAL-00007" summary="to exclude .idea dir from git">
+      <option name="closed" value="true" />
+      <created>1701166878877</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701166878877</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +194,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="to update report" />
     <MESSAGE value="to update the table of contents" />
-    <option name="LAST_COMMIT_MESSAGE" value="to update the table of contents" />
+    <MESSAGE value="to update project" />
+    <MESSAGE value="to exclude .idea dir from git" />
+    <option name="LAST_COMMIT_MESSAGE" value="to exclude .idea dir from git" />
   </component>
 </project>
