@@ -1,7 +1,7 @@
 ### PROFILE
 GET http://localhost:8080/profile/categories
 ###
-GET http://localhost:8080/categories
+GET http://localhost:8080/categories/202/announcements
 
 ### POST
 POST http://localhost:8080/categories
@@ -10,3 +10,9 @@ Content-Type: application/json
 {
   "name": "pidor"
 }
+
+###
+DELETE http://localhost:8080/categories/202/announcements/702
+Content-Type: text/uri-list
+
+http://localhost:8080/announcements/702

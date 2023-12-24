@@ -15,17 +15,17 @@ Content-Type: application/json
 }
 
 #### PATCH Categories
-PUT http://localhost:8080/announcements/1/categories
+PATCH http://localhost:8080/announcements/752/categories
 Content-Type: text/uri-list
+Accept: application/hal+json
 
-http://localhost:8080/categories/1
-http://localhost:8080/categories/2
+http://localhost:8080/categories/202
 
-### GET
-GET http://localhost:8080/announcements/1/categories
+### GET CATEGORIES
+GET http://localhost:8080/announcements/752/categories
 
 ### GET ITEM
-GET http://localhost:8080/announcements/553
+GET http://localhost:8080/announcements/752
 
 ###
 GET http://localhost:8080/announcements/search/findAnnouncementByCategories?{152}

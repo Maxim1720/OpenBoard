@@ -3,9 +3,9 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.49">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <IntrospectionStateNumber>2092</IntrospectionStateNumber>
+      <IntrospectionStateNumber>2766</IntrospectionStateNumber>
       <ServerVersion>15.4</ServerVersion>
-      <StartupTime>1700662323</StartupTime>
+      <StartupTime>1701587067</StartupTime>
       <TimeZones>true ACDT
 true ACSST
 false ACST
@@ -802,7 +802,7 @@ false posixrules
 13206||10|C|G
 13206||-9223372036854775808|U|G
 13206||10|U|G</Grants>
-      <IntrospectionStateNumber>2092</IntrospectionStateNumber>
+      <IntrospectionStateNumber>2766</IntrospectionStateNumber>
       <ObjectId>16763</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -815,14 +815,14 @@ false posixrules
       <ObjectId>16384</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
-    <role id="5" parent="1" name="pg_checkpoint">
-      <ObjectId>4544</ObjectId>
-    </role>
-    <role id="6" parent="1" name="pg_database_owner">
+    <role id="5" parent="1" name="pg_database_owner">
       <ObjectId>6171</ObjectId>
     </role>
-    <role id="7" parent="1" name="pg_execute_server_program">
-      <ObjectId>4571</ObjectId>
+    <role id="6" parent="1" name="pg_read_all_data">
+      <ObjectId>6181</ObjectId>
+    </role>
+    <role id="7" parent="1" name="pg_write_all_data">
+      <ObjectId>6182</ObjectId>
     </role>
     <role id="8" parent="1" name="pg_monitor">
       <ObjectId>3373</ObjectId>
@@ -830,29 +830,29 @@ false posixrules
 3375
 3377</RoleGrants>
     </role>
-    <role id="9" parent="1" name="pg_read_all_data">
-      <ObjectId>6181</ObjectId>
-    </role>
-    <role id="10" parent="1" name="pg_read_all_settings">
+    <role id="9" parent="1" name="pg_read_all_settings">
       <ObjectId>3374</ObjectId>
     </role>
-    <role id="11" parent="1" name="pg_read_all_stats">
+    <role id="10" parent="1" name="pg_read_all_stats">
       <ObjectId>3375</ObjectId>
+    </role>
+    <role id="11" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
     </role>
     <role id="12" parent="1" name="pg_read_server_files">
       <ObjectId>4569</ObjectId>
     </role>
-    <role id="13" parent="1" name="pg_signal_backend">
+    <role id="13" parent="1" name="pg_write_server_files">
+      <ObjectId>4570</ObjectId>
+    </role>
+    <role id="14" parent="1" name="pg_execute_server_program">
+      <ObjectId>4571</ObjectId>
+    </role>
+    <role id="15" parent="1" name="pg_signal_backend">
       <ObjectId>4200</ObjectId>
     </role>
-    <role id="14" parent="1" name="pg_stat_scan_tables">
-      <ObjectId>3377</ObjectId>
-    </role>
-    <role id="15" parent="1" name="pg_write_all_data">
-      <ObjectId>6182</ObjectId>
-    </role>
-    <role id="16" parent="1" name="pg_write_server_files">
-      <ObjectId>4570</ObjectId>
+    <role id="16" parent="1" name="pg_checkpoint">
+      <ObjectId>4544</ObjectId>
     </role>
     <role id="17" parent="1" name="postgres">
       <BypassRls>1</BypassRls>
@@ -4224,9 +4224,9 @@ false posixrules
     <schema id="263" parent="2" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>2092</IntrospectionStateNumber>
-      <IntrospectionTimestamp>2023-11-27.11:27:33.982</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-11-27.06:27:34</LocalIntrospectionTimestamp>
+      <IntrospectionStateNumber>2766</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2023-12-03.18:57:48.279</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-12-03.13:57:48</LocalIntrospectionTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>518</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
@@ -4234,7 +4234,7 @@ false posixrules
     <sequence id="264" parent="263" name="announcement_seq">
       <DasType>bigint|0s</DasType>
       <ObjectId>17531</ObjectId>
-      <SequenceIdentity>1(501)+50</SequenceIdentity>
+      <SequenceIdentity>1(751)+50</SequenceIdentity>
       <StartValue>1</StartValue>
       <StateNumber>1803</StateNumber>
       <OwnerName>postgres</OwnerName>
@@ -4242,7 +4242,7 @@ false posixrules
     <sequence id="265" parent="263" name="category_seq">
       <DasType>bigint|0s</DasType>
       <ObjectId>17532</ObjectId>
-      <SequenceIdentity>1(201)+50</SequenceIdentity>
+      <SequenceIdentity>1(251)+50</SequenceIdentity>
       <StartValue>1</StartValue>
       <StateNumber>1804</StateNumber>
       <OwnerName>postgres</OwnerName>
@@ -4250,7 +4250,7 @@ false posixrules
     <sequence id="266" parent="263" name="comment_seq">
       <DasType>bigint|0s</DasType>
       <ObjectId>17554</ObjectId>
-      <SequenceIdentity>1(1)+50</SequenceIdentity>
+      <SequenceIdentity>1(251)+50</SequenceIdentity>
       <StartValue>1</StartValue>
       <StateNumber>1832</StateNumber>
       <OwnerName>postgres</OwnerName>
@@ -4258,7 +4258,7 @@ false posixrules
     <sequence id="267" parent="263" name="location_seq">
       <DasType>bigint|0s</DasType>
       <ObjectId>17548</ObjectId>
-      <SequenceIdentity>1(351)+50</SequenceIdentity>
+      <SequenceIdentity>1(601)+50</SequenceIdentity>
       <StartValue>1</StartValue>
       <StateNumber>1829</StateNumber>
       <OwnerName>postgres</OwnerName>
@@ -4266,44 +4266,44 @@ false posixrules
     <sequence id="268" parent="263" name="rating_seq">
       <DasType>bigint|0s</DasType>
       <ObjectId>17573</ObjectId>
-      <SequenceIdentity>1(1)+50</SequenceIdentity>
+      <SequenceIdentity>1(701)+50</SequenceIdentity>
       <StartValue>1</StartValue>
       <StateNumber>1839</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <table id="269" parent="263" name="announcement">
-      <ObjectId>17668</ObjectId>
-      <StateNumber>1911</StateNumber>
+      <ObjectId>17737</ObjectId>
+      <StateNumber>2759</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
     <table id="270" parent="263" name="announcement_categories">
-      <ObjectId>17673</ObjectId>
-      <StateNumber>1912</StateNumber>
+      <ObjectId>17742</ObjectId>
+      <StateNumber>2760</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
     <table id="271" parent="263" name="category">
-      <ObjectId>17678</ObjectId>
-      <StateNumber>1912</StateNumber>
+      <ObjectId>17747</ObjectId>
+      <StateNumber>2760</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
     <table id="272" parent="263" name="comment">
-      <ObjectId>17725</ObjectId>
-      <StateNumber>2091</StateNumber>
+      <ObjectId>17752</ObjectId>
+      <StateNumber>2762</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
     <table id="273" parent="263" name="location">
-      <ObjectId>17690</ObjectId>
-      <StateNumber>1911</StateNumber>
+      <ObjectId>17759</ObjectId>
+      <StateNumber>2759</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
     <table id="274" parent="263" name="rating">
-      <ObjectId>17695</ObjectId>
-      <StateNumber>1915</StateNumber>
+      <ObjectId>17764</ObjectId>
+      <StateNumber>2763</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
@@ -4311,255 +4311,255 @@ false posixrules
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>1905</StateNumber>
+      <StateNumber>2753</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="276" parent="269" name="created_at">
       <DasType>timestamp(6)|0s</DasType>
       <Position>2</Position>
-      <StateNumber>1905</StateNumber>
+      <StateNumber>2753</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="277" parent="269" name="description">
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
-      <StateNumber>1905</StateNumber>
+      <StateNumber>2753</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="278" parent="269" name="title">
       <DasType>varchar(50)|0s</DasType>
       <Position>4</Position>
-      <StateNumber>1905</StateNumber>
+      <StateNumber>2753</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="279" parent="269" name="location_id">
       <DasType>bigint|0s</DasType>
       <Position>5</Position>
-      <StateNumber>1905</StateNumber>
+      <StateNumber>2753</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <foreign-key id="280" parent="269" name="fkgl6hcmfex5lpmaqq0n4g8w3do">
       <ColNames>location_id</ColNames>
-      <ObjectId>17700</ObjectId>
-      <StateNumber>1911</StateNumber>
+      <ObjectId>17769</ObjectId>
+      <StateNumber>2759</StateNumber>
       <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>17690</RefTableId>
+      <RefTableId>17759</RefTableId>
     </foreign-key>
     <index id="281" parent="269" name="announcement_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>17671</ObjectId>
+      <ObjectId>17740</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>1905</StateNumber>
+      <StateNumber>2753</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
     <key id="282" parent="269" name="announcement_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>17672</ObjectId>
+      <ObjectId>17741</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>1905</StateNumber>
-      <UnderlyingIndexId>17671</UnderlyingIndexId>
+      <StateNumber>2753</StateNumber>
+      <UnderlyingIndexId>17740</UnderlyingIndexId>
     </key>
-    <column id="283" parent="270" name="announcement_id">
+    <column id="283" parent="270" name="announcements_id">
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>1906</StateNumber>
+      <StateNumber>2754</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="284" parent="270" name="categories_id">
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>1906</StateNumber>
+      <StateNumber>2754</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <foreign-key id="285" parent="270" name="fkoecgv6u1re2jnffjhfqbgd67y">
-      <ColNames>announcement_id</ColNames>
-      <ObjectId>17710</ObjectId>
-      <StateNumber>1913</StateNumber>
+    <foreign-key id="285" parent="270" name="fk9xa1wclwu73lm7kfdfc9ycdjw">
+      <ColNames>announcements_id</ColNames>
+      <ObjectId>17779</ObjectId>
+      <StateNumber>2761</StateNumber>
       <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>17668</RefTableId>
+      <RefTableId>17737</RefTableId>
     </foreign-key>
     <foreign-key id="286" parent="270" name="fkgj4cn3fjqkxks9n1jbwpomhav">
       <ColNames>categories_id</ColNames>
-      <ObjectId>17705</ObjectId>
-      <StateNumber>1912</StateNumber>
+      <ObjectId>17774</ObjectId>
+      <StateNumber>2760</StateNumber>
       <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>17678</RefTableId>
+      <RefTableId>17747</RefTableId>
     </foreign-key>
     <index id="287" parent="270" name="announcement_categories_pkey">
-      <ColNames>announcement_id
+      <ColNames>announcements_id
 categories_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>17676</ObjectId>
+      <ObjectId>17745</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>1906</StateNumber>
+      <StateNumber>2754</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
     <key id="288" parent="270" name="announcement_categories_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>17677</ObjectId>
+      <ObjectId>17746</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>1906</StateNumber>
-      <UnderlyingIndexId>17676</UnderlyingIndexId>
+      <StateNumber>2754</StateNumber>
+      <UnderlyingIndexId>17745</UnderlyingIndexId>
     </key>
     <column id="289" parent="271" name="id">
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>1907</StateNumber>
+      <StateNumber>2755</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="290" parent="271" name="name">
       <DasType>varchar(50)|0s</DasType>
       <Position>2</Position>
-      <StateNumber>1907</StateNumber>
+      <StateNumber>2755</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <index id="291" parent="271" name="category_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>17681</ObjectId>
+      <ObjectId>17750</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>1907</StateNumber>
+      <StateNumber>2755</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
     <key id="292" parent="271" name="category_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>17682</ObjectId>
+      <ObjectId>17751</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>1907</StateNumber>
-      <UnderlyingIndexId>17681</UnderlyingIndexId>
+      <StateNumber>2755</StateNumber>
+      <UnderlyingIndexId>17750</UnderlyingIndexId>
     </key>
     <column id="293" parent="272" name="id">
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>2090</StateNumber>
+      <StateNumber>2756</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="294" parent="272" name="created_at">
       <DasType>timestamp(6)|0s</DasType>
       <Position>2</Position>
-      <StateNumber>2090</StateNumber>
+      <StateNumber>2756</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="295" parent="272" name="text">
       <DasType>varchar(500)|0s</DasType>
       <Position>3</Position>
-      <StateNumber>2090</StateNumber>
+      <StateNumber>2756</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="296" parent="272" name="announcement_id">
       <DasType>bigint|0s</DasType>
       <Position>4</Position>
-      <StateNumber>2090</StateNumber>
+      <StateNumber>2756</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <foreign-key id="297" parent="272" name="fkeesiagm3hwe8l0oosrb17cjyn">
       <ColNames>announcement_id</ColNames>
-      <ObjectId>17732</ObjectId>
-      <StateNumber>2091</StateNumber>
+      <ObjectId>17784</ObjectId>
+      <StateNumber>2762</StateNumber>
       <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>17668</RefTableId>
+      <RefTableId>17737</RefTableId>
     </foreign-key>
     <index id="298" parent="272" name="comment_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>17730</ObjectId>
+      <ObjectId>17757</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>2090</StateNumber>
+      <StateNumber>2756</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
     <key id="299" parent="272" name="comment_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>17731</ObjectId>
+      <ObjectId>17758</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>2090</StateNumber>
-      <UnderlyingIndexId>17730</UnderlyingIndexId>
+      <StateNumber>2756</StateNumber>
+      <UnderlyingIndexId>17757</UnderlyingIndexId>
     </key>
     <column id="300" parent="273" name="id">
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>1909</StateNumber>
+      <StateNumber>2757</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="301" parent="273" name="city">
       <DasType>varchar(100)|0s</DasType>
       <Position>2</Position>
-      <StateNumber>1909</StateNumber>
+      <StateNumber>2757</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="302" parent="273" name="region">
       <DasType>varchar(150)|0s</DasType>
       <Position>3</Position>
-      <StateNumber>1909</StateNumber>
+      <StateNumber>2757</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <index id="303" parent="273" name="location_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>17693</ObjectId>
+      <ObjectId>17762</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>1909</StateNumber>
+      <StateNumber>2757</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
     <key id="304" parent="273" name="location_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>17694</ObjectId>
+      <ObjectId>17763</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>1909</StateNumber>
-      <UnderlyingIndexId>17693</UnderlyingIndexId>
+      <StateNumber>2757</StateNumber>
+      <UnderlyingIndexId>17762</UnderlyingIndexId>
     </key>
     <column id="305" parent="274" name="id">
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>1910</StateNumber>
+      <StateNumber>2758</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="306" parent="274" name="value">
       <DasType>integer|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>1910</StateNumber>
+      <StateNumber>2758</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="307" parent="274" name="announcement_id">
       <DasType>bigint|0s</DasType>
       <Position>3</Position>
-      <StateNumber>1910</StateNumber>
+      <StateNumber>2758</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <foreign-key id="308" parent="274" name="fk7rkyui6pp2ldvmkjex45093mm">
       <ColNames>announcement_id</ColNames>
-      <ObjectId>17720</ObjectId>
-      <StateNumber>1915</StateNumber>
+      <ObjectId>17789</ObjectId>
+      <StateNumber>2763</StateNumber>
       <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>17668</RefTableId>
+      <RefTableId>17737</RefTableId>
     </foreign-key>
     <index id="309" parent="274" name="rating_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>17698</ObjectId>
+      <ObjectId>17767</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>1910</StateNumber>
+      <StateNumber>2758</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
     <key id="310" parent="274" name="rating_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>17699</ObjectId>
+      <ObjectId>17768</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>1910</StateNumber>
-      <UnderlyingIndexId>17698</UnderlyingIndexId>
+      <StateNumber>2758</StateNumber>
+      <UnderlyingIndexId>17767</UnderlyingIndexId>
     </key>
   </database-model>
 </dataSource>

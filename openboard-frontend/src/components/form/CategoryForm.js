@@ -8,7 +8,7 @@ export default function CategoryForm({item, onSubmit}) {
         if(item){
             setFormData(item);
         }
-    }, []);
+    }, [item]);
 
     const onChange = (e)=>{
         console.log(e);

@@ -1,114 +1,198 @@
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?{152}=
+GET http://localhost:8080/announcements/752/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-03T202653.200.json
+
+###
+
+PATCH http://localhost:8080/announcements/752/categories
+Content-Type: text/uri-list
+Accept: application/hal+json
+Content-Length: 36
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/202
+
+###
+
+PUT http://localhost:8080/announcements/752/categories
+Content-Type: text/uri-list
+Accept: application/hal+json
+Content-Length: 36
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/202
+
+###
+
+PUT http://localhost:8080/announcements/752/categories
+Accept: application/hal+json
+Content-Length: 36
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/202
+
+<> 2023-12-03T202302.404.json
+
+###
+
+PUT http://localhost:8080/announcements/752/categories
+Content-Type: text/uri-list
+Accept: application/hal+json
+Content-Length: 36
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/202
+
+###
+
+GET http://localhost:8080/announcements/752/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-03T202236.200.json
+
+###
+
+PUT http://localhost:8080/announcements/752/categories
+Content-Type: text/uri-list
+Accept: application/hal+json
+Content-Length: 36
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/202
+
+###
+
+GET http://localhost:8080/announcements/752/categories
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-03T202215.200.json
+
+###
+
+GET http://localhost:8080/announcements/752
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-03T202155.200.json
+
+###
+
+PUT http://localhost:8080/announcements/752/categories
+Content-Type: text/uri-list
+Accept: application/hal+json
+Content-Length: 69
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/1
+http://localhost:8080/categories/2
+
+###
+
+PATCH http://localhost:8080/announcements/752/categories
+Content-Type: text/uri-list
+Accept: application/hal+json
+Content-Length: 69
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/1
+http://localhost:8080/categories/2
+
+###
+
+PATCH http://localhost:8080/announcements/752/categories
+Content-Type: text/uri-list
+Accept: application/json+hal
+Content-Length: 69
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/1
+http://localhost:8080/categories/2
+
+###
+
+PATCH http://localhost:8080/announcements/752/categories
+Content-Type: text/uri-list
+Accept: application/json
+Content-Length: 69
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/1
+http://localhost:8080/categories/2
+
+###
+
+PATCH http://localhost:8080/announcements/752/categories
+Content-Type: text/uri-list
+Content-Length: 69
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/1
+http://localhost:8080/categories/2
+
+###
+
+PUT http://localhost:8080/announcements/752/categories
+Content-Type: text/uri-list
+Content-Length: 69
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/categories/1
+http://localhost:8080/categories/2
+
+###
+
+POST http://localhost:8080/announcements
 Content-Type: application/json
-Content-Length: 40
+Content-Length: 63
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-["http://localhost:8080/categories/152"]
-
-<> 2023-11-28T111040.200.json
+{
+  "title": "lol",
+  "description": "lol",
+  "categories":[]
+}
 
 ###
 
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?152=
-Content-Type: application/json
-Content-Length: 40
+GET http://localhost:8080/announcements/702
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-["http://localhost:8080/categories/152"]
-
-<> 2023-11-28T111030.200.json
-
-###
-
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?{152, Продажа}=
-Content-Type: application/json
-Content-Length: 40
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-["http://localhost:8080/categories/152"]
-
-<> 2023-11-28T111019.200.json
-
-###
-
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?152=
-Content-Type: application/json
-Content-Length: 40
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-["http://localhost:8080/categories/152"]
-
-<> 2023-11-28T111009.200.json
-
-###
-
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?"Продажа"=
-Content-Type: application/json
-Content-Length: 40
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-["http://localhost:8080/categories/152"]
-
-<> 2023-11-28T111003.200.json
-
-###
-
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?Продажа=
-Content-Type: application/json
-Content-Length: 40
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-["http://localhost:8080/categories/152"]
-
-<> 2023-11-28T110955.200.json
-
-###
-
-GET http://localhost:8080/announcements/search
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T110901.200.json
-
-###
-
-GET http://localhost:8080/search/announcements
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T110841.404.json
-
-###
-
-GET http://localhost:8080/search/announcements
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T110833.404.json
-
-###
-
-GET http://localhost:8080/announcements
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T110801.200.json
+<> 2023-12-03T202022.200.json
 
 ###
 
@@ -117,378 +201,347 @@ Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-11-28T110755.200.json
-
 ###
 
-GET http://localhost:8080/profile/announcements
+GET http://localhost:8080/categories/202/announcements
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-11-28T110750.200.json
+<> 2023-12-03T191125.200.json
 
 ###
 
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories
+DELETE http://localhost:8080/categories/202/announcements/702
+Content-Type: text/uri-list
+Content-Length: 39
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+http://localhost:8080/announcements/702
+
+###
+
+GET http://localhost:8080/categories/202/announcements
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-03T191100.200.json
+
+###
+
+DELETE http://localhost:8080/categories/202/announcements/702
+Content-Type: text/uri-list
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+DELETE http://localhost:8080/categories/202/announcements
+Content-Type: text/uri-list
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/categories/202/announcements
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-03T191034.200.json
+
+###
+
+PATCH http://localhost:8080/categories/202/announcements
+Content-Type: text/uri-list
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/categories/202/announcements
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-03T191019.200.json
+
+###
+
+PUT http://localhost:8080/categories/202/announcements
 Content-Type: application/json
-Content-Length: 40
+Content-Length: 0
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-["http://localhost:8080/categories/152"]
-
-<> 2023-11-28T110744.200.json
-
 ###
 
-GET http://localhost:8080/categories
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T110733.200.json
-
-###
-
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories
+PUT http://localhost:8080/categories/202/announcements
 Content-Type: application/json
-Content-Length: 40
+Content-Length: 8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[{
+
+}]
+
+<> 2023-12-03T191012.400.json
+
+###
+
+PUT http://localhost:8080/categories/202/announcements
+Content-Type: application/json
+Content-Length: 2
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[]
+
+<> 2023-12-03T190949.400.json
+
+###
+
+PUT http://localhost:8080/categories/202/announcements
+Content-Type: application/json
+Content-Length: 6
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 [
-  {
-    "name": "Продажа"
-  }
+
 ]
 
-<> 2023-11-28T110644.200.json
+<> 2023-12-03T190934.400.json
 
 ###
 
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories
+GET http://localhost:8080/categories/202/announcements
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-03T190925.200.json
+
+###
+
+PUT http://localhost:8080/categories/202/announcements
 Content-Type: application/json
-Content-Length: 40
+Content-Length: 6
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-[
-  {
-    "name": "Продажа"
-  }
-]
+{
 
-<> 2023-11-28T110638.200.json
+}
 
 ###
 
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories
+GET http://localhost:8080/categories/202/announcements
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-11-28T110605.200.json
+<> 2023-12-03T190859.200.json
 
 ###
 
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?categories={"name": "Продажа","_links": {"self": {"href": "http://localhost:8080/categories/152"},"category": {"href": "http://localhost:8080/categories/152"}}}
+PUT http://localhost:8080/categories/202/announcements
+Content-Type: text/uri-list
+Accept: application/json
+Content-Length: 0
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T110549.500.json
 
 ###
 
-GET http://localhost:8080/categories
+GET http://localhost:8080/categories/202/announcements
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-11-28T110505.200.json
+<> 2023-12-03T190847.200.json
 
 ###
 
-GET http://localhost:8080/profile/categories
+PUT http://localhost:8080/categories/202/announcements
+Content-Type: text/uri-list
+Accept: application/json
+Content-Length: 39
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-11-28T110446.200.json
+http://localhost:8080/announcements/702
 
 ###
 
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?categories={}
+GET http://localhost:8080/categories/202/announcements
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-11-28T110432.500.json
+<> 2023-12-03T190837.200.json
 
 ###
 
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?categories=[152]
+PUT http://localhost:8080/categories/202/announcements
+Content-Type: text/uri-list
+Accept: application/json
+Content-Length: 39
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-11-28T110414.500.json
+http://localhost:8080/announcements/201
 
 ###
 
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?categories=152
+PUT http://localhost:8080/categories/202/announcements
+Content-Type: text/uri-list
+Accept: application/json
+Content-Length: 41
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-11-28T110409.500.json
+[http://localhost:8080/announcements/201]
+
+<> 2023-12-03T190827.500.json
 
 ###
 
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?categories=
+PUT http://localhost:8080/categories/202/announcements
+Content-Type: text/uri-list
+Accept: application/json
+Content-Length: 41
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-11-28T110342.500.json
+[http://localhost:8080/announcements/202]
+
+<> 2023-12-03T190823.500.json
 
 ###
 
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?152=
+PUT http://localhost:8080/categories/202/announcements
+Content-Type: text/uri-list
+Accept: application/json
+Content-Length: 18
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-11-28T110333.200.json
+[http://localhost]
+
+<> 2023-12-03T190801.500.json
 
 ###
 
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?Продажа=
+PUT http://localhost:8080/categories/202/announcements
+Content-Type: text/uri-list
+Accept: application/json
+Content-Length: 0
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T110320.200.json
 
 ###
 
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?categories=Продажа
+PUT http://localhost:8080/categories/202/announcements
+Content-Type: text/uri-list
+Content-Length: 0
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T110304.500.json
 
 ###
 
-GET http://localhost:8080/profile/announcements
+GET http://localhost:8080/categories/202/announcements
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-11-28T110215.200.json
+<> 2023-12-03T190650.200.json
 
 ###
 
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories
+PUT http://localhost:8080/categories/202/announcements
+Content-Type: text/uri-list
+Content-Length: 0
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T110202.200.json
 
 ###
 
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories
+PUT http://localhost:8080/categories/202/announcements
+Content-Type: text/uri-list
+Content-Length: 2
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-11-28T110157.200.json
+''
+
+<> 2023-12-03T190641.500.json
 
 ###
 
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?{name:Продажа}=
+PUT http://localhost:8080/categories/202/announcements
+Content-Type: text/uri-list
+Content-Length: 2
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-11-28T110146.200.json
+""
+
+<> 2023-12-03T190638.500.json
 
 ###
 
-GET http://localhost:8080/profile/announcements
+PUT http://localhost:8080/categories/202/announcements
+Content-Type: text/uri-list
+Content-Length: 2
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-11-28T110117.200.json
+[]
+
+<> 2023-12-03T190621.500.json
 
 ###
 
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?[152]=
+DELETE http://localhost:8080/categories/202/announcements
+Content-Type: text/uri-list
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T110058.200.json
 
 ###
 
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?152=
+GET http://localhost:8080/categories/202/announcements
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2023-11-28T110053.200.json
-
-###
-
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?{152}=
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T110048.200.json
-
-###
-
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?{http://localhost:8080/categories/152}=
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T110041.200.json
-
-###
-
-GET http://localhost:8080/categories
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T110020.200.json
-
-###
-
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?Пр=
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T110003.200.json
-
-###
-
-GET http://localhost:8080/announcements/search/findAnnouncementByCategories?Продажа=
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T105954.200.json
-
-###
-
-GET http://localhost:8080/announcements/search
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T105920.200.json
-
-###
-
-GET http://localhost:8080/announcements
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T105857.200.json
-
-###
-
-GET http://localhost:8080/announcements/findAnnouncementByCategories
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T105846.500.json
-
-###
-
-GET http://localhost:8080/announcements/categories=Продажа
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T105817.500.json
-
-###
-
-GET http://localhost:8080/announcements/553
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T105539.200.json
-
-###
-
-GET http://localhost:8080/profile/announcements
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T105423.200.json
-
-###
-
-GET http://localhost:8080/categories
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T104847.200.json
-
-###
-
-GET http://localhost:8080/profile/categories
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T104831.200.json
-
-###
-
-GET http://localhost:8080/profile/announcements
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-28T000403.200.json
-
-###
-
-GET http://localhost:8080/profile/announcements
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-27T235409.200.json
-
-###
-
-GET http://localhost:8080/ratings/438
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-11-27T234623.200.json
+<> 2023-12-03T190556.200.json
 
 ###
 
