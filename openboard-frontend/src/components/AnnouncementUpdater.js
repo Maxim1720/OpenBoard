@@ -4,11 +4,10 @@ import {useCallback, useEffect, useState} from "react";
 export default function AnnouncementUpdater({item, onUpdate}) {
 
     console.log(item);
-
-    const [init, setInit] = useState(item);
+    const [init, setInit] = useState({...item});
     const [locationLoaded, setLocationLoaded] = useState(false);
     const onSubmit = (data) => {
-        const location =  data.location;
+        const location = data.location;
         const categories = data.categories;
 
         delete data.location;
@@ -78,19 +77,36 @@ export default function AnnouncementUpdater({item, onUpdate}) {
     const loadLocation = useCallback(async () => {
         const resp = await fetch(item._links.location.href);
         return await resp.json();
+    }, [item]);
+
+    const loadCategories = useCallback(async () => {
+        const resp = await fetch(item._links.categories.href);
+        const body = await resp.json();
+        console.log(body)
+        return body._embedded.categories;
     }, [item])
 
     useEffect(() => {
-        loadLocation().then(resp => {
-            setInit(prev => ({
-                ...prev,
-                location: {
-                    ...resp
-                }
-            }));
-            setLocationLoaded(true);
-        })
-    }, [loadLocation]);
+        Promise
+            .all([loadCategories(), loadLocation()])
+            .then(async responses => {
+                return responses;
+            })
+            .then(jsons=>{
+                console.log(jsons);
+                setInit(prev => ({
+                    ...prev,
+                    ...item,
+                    location: {
+                        ...jsons[1]
+                    },
+                    categories: [
+                        ...(jsons[0].map(c=>c._links.self.href))
+                    ]
+                }))
+                setLocationLoaded(true);
+            });
+    }, [item, loadCategories, loadLocation]);
 
     if (locationLoaded) {
         return (

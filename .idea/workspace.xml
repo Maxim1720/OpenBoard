@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76dcba20-fd04-480e-9119-6e38a461675b" name="Changes" comment="исправление заголовков рисунков">
+    <list default="true" id="76dcba20-fd04-480e-9119-6e38a461675b" name="Changes" comment="to fix announcement editing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementCreator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementUpdater.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementUpdater.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openboard-frontend/src/components/Announcements.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/components/Announcements.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openboard-frontend/src/components/comment/CommentCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/components/comment/CommentCreator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openboard-frontend/src/components/comment/Comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/components/comment/Comments.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/openboard-frontend/src/components/form/AnnouncementForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/components/form/AnnouncementForm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +148,7 @@
       <workItem from="1703000551863" duration="30000" />
       <workItem from="1703184198224" duration="2467000" />
       <workItem from="1703427445428" duration="302000" />
-      <workItem from="1703439761463" duration="13170000" />
+      <workItem from="1703439761463" duration="18286000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -226,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703439980113</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="to fix announcement editing">
+      <option name="closed" value="true" />
+      <created>1703496763278</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703496763278</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +246,7 @@
     <MESSAGE value="to update project" />
     <MESSAGE value="to exclude .idea dir from git" />
     <MESSAGE value="исправление заголовков рисунков" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправление заголовков рисунков" />
+    <MESSAGE value="to fix announcement editing" />
+    <option name="LAST_COMMIT_MESSAGE" value="to fix announcement editing" />
   </component>
 </project>
