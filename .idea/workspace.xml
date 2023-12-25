@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76dcba20-fd04-480e-9119-6e38a461675b" name="Changes" comment="исправление заголовков рисунков">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cfb049f3-6f53-4730-a380-e04cfbd21a03.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cfb049f3-6f53-4730-a380-e04cfbd21a03.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cfb049f3-6f53-4730-a380-e04cfbd21a03/storage_v2/_src_/database/open_board.sRhCKA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cfb049f3-6f53-4730-a380-e04cfbd21a03/storage_v2/_src_/database/open_board.sRhCKA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lea report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Lea report.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenBoard-backend/src/main/java/ru/lea/openboardbackend/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/java/ru/lea/openboardbackend/entity/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/announcement.http" beforeDir="false" afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/announcement.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/category.http" beforeDir="false" afterPath="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/category.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementCreator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementItemCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementItemCategory.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementUpdater.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/components/AnnouncementUpdater.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/openboard-frontend/src/components/Announcements.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/components/Announcements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openboard-frontend/src/components/comment/CommentCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/components/comment/CommentCreator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openboard-frontend/src/components/comment/Comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/components/comment/Comments.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/openboard-frontend/src/components/form/AnnouncementForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/components/form/AnnouncementForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openboard-frontend/src/components/form/CategoryForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/openboard-frontend/src/components/form/CategoryForm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +31,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -59,41 +57,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/almat/IdeaProjects/old/quarto fifth circle&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/almat/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/232.10072.27/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "dev",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "last_opened_file_path": "/home/almat/IdeaProjects/old/quarto fifth circle",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "build.tools",
+    "ts.external.directory.path": "/home/almat/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/232.10072.27/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="Spring Boot.OpenBoardBackendApplication">
     <configuration name="announcement | GET CATEGORIES" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/OpenBoard-backend/src/main/resources/requests/announcement.http" index="5" requestIdentifier="GET CATEGORIES" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -154,6 +152,7 @@
       <workItem from="1703000551863" duration="30000" />
       <workItem from="1703184198224" duration="2467000" />
       <workItem from="1703427445428" duration="302000" />
+      <workItem from="1703439761463" duration="13170000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -219,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701167299047</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="исправление заголовков рисунков">
+      <option name="closed" value="true" />
+      <created>1703439980113</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703439980113</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

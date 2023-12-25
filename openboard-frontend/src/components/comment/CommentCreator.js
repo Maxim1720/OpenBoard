@@ -34,6 +34,7 @@ export default function CommentCreator({announcement, onCreate}){
                 })
                     .then(resp=>{
                         console.log(resp);
+                        onCreate();
                     })
                     .catch(er=>alert(er));
 
@@ -44,7 +45,7 @@ export default function CommentCreator({announcement, onCreate}){
     }
 
     return(
-        <div>
+        <div className="">
             <h4 className="text-center text-bg-success rounded-2">Напишите комментарий к объявлению!</h4>
             <CommentForm announcement={announcement} onSubmit={(data)=> {
                 Promise.resolve(onSubmit(data)).then(r => onCreate())

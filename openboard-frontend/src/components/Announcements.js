@@ -26,7 +26,8 @@ export default function Announcements() {
       }
   }, []);
 
-  useEffect(() => {
+
+  const loadItems = useCallback(()=>{
     fetchItems().then((resp) => {
       let loadStateData;
       if (resp.hasOwnProperty("error")) {
@@ -42,9 +43,13 @@ export default function Announcements() {
       setLoadState({
         ...loadStateData,
       });
-      
+
     });
-  }, []);
+  }, [fetchItems])
+
+  useEffect(() => {
+    loadItems()
+  }, [loadItems]);
 
   if (loadState.error) {
     alert(loadState.error.message);
@@ -67,13 +72,7 @@ export default function Announcements() {
         item={i}
         key={i._links.self.href}
         onEdit={() => {
-          fetchItems().then((resp) => {
-            setLoadState((prev) => ({
-              ...prev,
-              items: [...resp],
-            }));
-            // window.location.reload();
-          });
+          loadItems();
         }}
       />
     ));

@@ -1,7 +1,8 @@
 import React, { useCallback, useEffect, useState } from "react";
 import Loading from "../utils/Loading";
 
-export default function AnnouncementForm({ init, onSubmit }) {
+export default function AnnouncementForm({ init, onSubmit}) {
+  console.log(init);
   const [categories, setCategories] = useState([]);
   const [form, setForm] = useState({
     ...(init
@@ -31,7 +32,7 @@ export default function AnnouncementForm({ init, onSubmit }) {
   const onInputLocation = (e) => {
     let name = e.target.name;
     let value = e.target.value;
-
+    console.log(form);
     setForm((prev) => ({
       ...prev,
       location: {
@@ -41,29 +42,40 @@ export default function AnnouncementForm({ init, onSubmit }) {
     }));
   };
 
-  useEffect(() => {
-    fetch("http://localhost:8080/categories")
-      .then((resp) => resp.json())
-      .then((json) => {
-        setCategories([...json._embedded.categories]);
-        setForm((prev) => ({
-          ...(init ? init : prev),
-          location: init
-            ? init.location
-              ? init.location
-              : prev.location
-            : prev.location,
-        }));
-        setIsLoaded(true);
-      })
-      .then(() => console.log(form))
-      .catch((error) => alert(error.message));
+  const loadLocation = useCallback(async ()=>{
+    const resp = await fetch(init._links.location.href);
+    const json = await resp.json();
+    return json;
+  }, [init]);
+
+  const loadAllCategories = useCallback(async ()=>{
+    const resp = await fetch("http://localhost:8080/categories");
+    const json = await resp.json();
+    console.log(json);
+    return json._embedded.categories;
   }, []);
 
-  //     const onSubmit = (e) => {
+  useEffect(() => {
+    loadAllCategories().then(categories=>{
+      setCategories(categories);
+      if(init){
+        loadLocation().then(l=>{
+          setForm(prevState => ({
+            ...prevState,
+            ...init,
+            location: l
+          }));
+          setIsLoaded(true);
+        });
+      }
+      else{
+        setIsLoaded(true);
+      }
 
-  //     onSubmit(form);
-  //   };
+    })
+
+  }, [init, loadAllCategories, loadLocation]);
+
 
   if (!isLoaded) {
     return (
@@ -81,6 +93,7 @@ export default function AnnouncementForm({ init, onSubmit }) {
     <form
       className="d-flex flex-column justify-content-center form-control"
       onSubmit={(e) => {
+        console.log(form);
         e.preventDefault();
         onSubmit(form);
       }}
@@ -155,7 +168,7 @@ export default function AnnouncementForm({ init, onSubmit }) {
           <input
             className="form-control"
             name="city"
-            value={form.location.city}
+            value={form.location ? form.location.city : ''}
             required={true}
             onInput={onInputLocation}
           />
@@ -167,7 +180,7 @@ export default function AnnouncementForm({ init, onSubmit }) {
           <input
             className="form-control"
             name="region"
-            value={form.location.region}
+            value={form.location ? form.location.region : ''}
             required={true}
             onInput={onInputLocation}
           />
