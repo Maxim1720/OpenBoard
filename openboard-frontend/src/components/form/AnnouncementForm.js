@@ -113,7 +113,7 @@ export default function AnnouncementForm({ init, onSubmit}) {
         <input
           className="form-control"
           name="title"
-          value={form.title?form.title: "Лол"}
+          value={form.title}
           required={true}
           onInput={onInput}
         />
