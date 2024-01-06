@@ -1,0 +1,83 @@
+@startuml "usecase lea" 
+
+
+actor "Пользователь" as user
+
+usecase (Выбрать\nсущность) as choose_entity
+usecase (Создание\nданных) as create_data
+usecase (Просмотр \n данных \n сущности) as view_data
+usecase (Выбор \n данных) as exists_data
+usecase (Редактирование) as editing
+usecase (Удаление) as deleting
+
+user -down-> choose_entity
+create_data .up.> choose_entity : <<extend>>
+view_data <.left. choose_entity: <<include>>
+exists_data .left.> view_data : <<extend>>
+deleting .up.> exists_data : <<extend>>
+editing .down.> exists_data : <<extend>>
+
+(Получить \n объявления) as get_announcements 
+(Получить \n категории) as get_categories
+(Получить \n комментарии) as get_comments
+(Получить \n рейтинг) as get_rating
+(Получить \n локацию) as get_location
+
+
+(Удаление \n категории) as delete_category
+(Удаление \n всех \n объявлений \n категории) as delete_all_announcements
+(Удаление \n объявления) as delete_announcement
+(Удаление \n комментариев) as delete_comments
+(Удаление \n локации) as delete_location
+(Удаление \n комментария) as delete_comment
+(Удаление \n рейтинга) as delete_rating
+
+(Редактирование категории) as edit_category
+(Редактирование объявления) as edit_announcement
+(Редактирование локации) as edit_location
+(Редактирование рейтинга) as edit_rating
+
+editing <.up. edit_category: <<extend>>
+editing <.up. edit_announcement: <<extend>>
+editing <.up. edit_location: <<extend>>
+editing <.right. edit_rating: <<extend>>
+
+
+get_announcements .down.> view_data : <<extend>>
+get_announcements .up.> get_comments : <<include>>
+get_announcements .up.> get_location : <<include>>
+get_announcements .up.> get_rating : <<include>>
+get_categories .down.> view_data : <<extend>>
+
+
+deleting <.right. delete_category : <<extend>> 
+delete_category .up.> delete_all_announcements : <<include>>
+
+deleting <.down. delete_announcement : <<extend>>
+delete_announcement .> delete_comments : <<include>>
+delete_announcement .up.> delete_location : <<include>>
+delete_announcement .up.> delete_rating : <<include>>
+deleting <.down. delete_location : <<extend>>
+deleting <.down. delete_comment : <<extend>>
+
+
+(Создание объявления) as create_announcement
+(Создание категории) as create_category
+(Создание рейтинга) as create_rating
+(Создание локации) as create_location
+(Создание комментария) as create_comment
+
+create_data <.right. create_announcement : <<extend>>
+create_announcement .down.> create_location : <<include>>
+
+
+create_data <.up. create_rating : <<extend>>
+create_data <.down. create_comment : <<extend>>
+
+create_rating .left.> (Выбор объявления) : <<include>>
+create_comment .up.> (Выбор объявления) : <<include>>
+
+create_data <.down. create_category : <<extend>>
+create_announcement .down.> (Выбор категории) : <<include>>
+
+@enduml
