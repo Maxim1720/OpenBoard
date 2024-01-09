@@ -137,15 +137,15 @@ export default function Announcements() {
               <div className="tab-pane" id="category">
                 <CategoryForm
                   onSubmit={(data) => {
-                    fetch("http://localhost:8080/categories", {
+                    fetch(process.env.REACT_APP_API_CATEGORIES, {
                       method: "POST",
                       headers: {
-                        accept: "application/json",
-                        "content-type": "application/json",
+                        "Accept": "application/json",
+                        "Content-Type": "application/json",
                       },
                       body: JSON.stringify(data),
                     })
-                      .then((resp) => {})
+                      .then(() => {})
                       .catch((error) => alert(error));
                   }}
                 />
