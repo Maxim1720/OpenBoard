@@ -1,0 +1,9 @@
+version: "3"
+services:
+  front:
+    env_file: .env
+    build:
+      context: .
+    container_name: openboard_frontend
+    ports:
+      - 3000:3000

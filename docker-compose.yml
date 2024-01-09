@@ -1,0 +1,25 @@
+version: "3"
+services:
+  back:
+    build:
+      context: ./OpenBoard-backend/
+    ports:
+      - 8080:8080
+    container_name: openboard_backend
+    depends_on:
+      - db
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/open_board
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=postgres
+  db:
+    container_name: openboard_db
+    extends:
+      file: dc-pg.yml
+      service: pg
+
+  front:
+    container_name: openboard_frontend
+    extends:
+      file: openboard-frontend/docker-compose.yml
+      service: front
